@@ -1,6 +1,6 @@
 X = 1:100;
 Y = sin(X.*X/500);
-dY = Y(2:100)-Y(1:99);
+dY = Y(2:100)-Y(1:99); % length 99
 Y1 = Y(1);
 
 % Reconstructing
